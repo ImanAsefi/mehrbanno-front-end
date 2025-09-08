@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    direction: rtl;
+    font-family: "VAZIR";
+    color: #dfdfdf;
+}
+
+.container__navbar{
+    background-color: #323232;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    right: ;
+}
+
+.cont p{
+    
+}

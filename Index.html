@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asstes/style/style.css">
     <link rel="stylesheet" href="./asstes/fontawesome-free-7.0.1-web/css/all.min.css">
+    <link rel="stylesheet" href="asstes/swiper/swiper-bundle.min.css">
+    <link rel="icon" href="asstes/svg/bowl-food-solid-full.svg">
     <title>زاتا | صفحه اصلی</title>
 </head>
 
 <body>
     <div class="container">
+
+        <div class="bubbles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
         <nav class="container__navbar">
             <div class="navbar__left-div">
                 <i style="color: #04655E; width: 25px; height: 25px;" class="fa-solid fa-bowl-food"></i>
@@ -27,20 +38,87 @@
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <h1>Lorem ipsum dolor sit</h1>
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi nihil voluptatem id reprehenderit consectetur, recusandae deleniti iure maxime earum dolorem molestiae ullam dolorum qui tenetur eius ipsam beatae laudantium expedita!</h4>
+                <h1>Lorem ipsum <span class="color__text">dolor</span> sit</h1>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi nihil voluptatem id!</h4>
             </div>
             <div class="swiper-slide">
-                <h1>Lorem ipsum dolor sit</h1>
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi nihil voluptatem id reprehenderit consectetur, recusandae deleniti iure maxime earum dolorem molestiae ullam dolorum qui tenetur eius ipsam beatae laudantium expedita!</h4>
+                <h1>Lorem ipsum <span class="color__text">dolor</span> sit</h1>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi nihil voluptatem id!</h4>
+            </div>
+            <div class="swiper-slide">
+                <h1>Lorem ipsum <span class="color__text">dolor</span> sit</h1>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi nihil voluptatem id!</h4>
             </div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
+
     </div>
 
+    <main class="mine">
+        <h1 class="title">ویژگی های کلیدی</h1>
+        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده </p>
+        <div class="boxes">
+            <div class="box">
+                <i class="fa-solid fa-clipboard-list" style="color: #04655E; width: 30px; height: 30px;"></i>
+                <h3>مدیریت پروژه</h3>
+                <p>است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-users" style="color: #04655E; width: 30px; height: 30px;"></i>
+                <h3>همکاری تیمی</h3>
+                <p>است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-share-nodes" style="color: #04655E; width: 30px; height: 30px;"></i>
+                <h3>اشتراک گذاری فایل</h3>
+                <p>است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-clock" style="color: #04655E; width: 30px; height: 30px;"></i>
+                <h3>زمان بندی</h3>
+                <p>است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="download">
+        <div class="download__div">
+            <h1>اپلیکیشن <span class="color__text">زاتا</span> را دانلود کنید</h1>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده</p>
+            <div class="download__div-btns">
+                <button class="div_buttons download__btn1"><i class="fa-brands fa-android"
+                        style="color: #dfdfdf; width: 22px; height: 22px; margin-right: 15px;"></i>
+                    <p>ANDROID</p>
+                </button>
+                <button class="div_buttons download__btn2"><i class="fa-brands fa-apple"
+                        style="color: #dfdfdf; width: 25px; height: 25px; margin-right: 20px;"></i>
+                    <p style="margin-left: 25px;">APPLE</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__right-div">
+            <p><a href="#">درباره ما</a></p>
+            <p><a href="#">حریم خصوصی</a></p>
+            <p><a href="#">قوانیت و مقررات</a></p>
+            <p><a href="#">لایسنس</a></p>
+        </div>
+        <div class="footer__middle-div">
+            <i class="fa-solid fa-bowl-food" style="margin-left: 5px; width: 38px; height: 38px; color: #04655E;"></i>
+            <h1 style="color: #04655E;">زاتا</h1>
+        </div>
+        <div class="footer__left-div">
+            <p> 2025 © تمامی حقوق <span class="color__text">محفوظ</span> است.</p>
+        </div>
+    </footer>
+
     <script src="asstes/fontawesome-free-7.0.1-web/js/all.min.js"></script>
+    <script src="asstes/swiper/swiper-bundle.min.js"></script>
+    <script src="asstes/js/swiper.js"></script>
 </body>
 
 </html>

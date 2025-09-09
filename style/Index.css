@@ -1,39 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "VAZIR";
 }
 
-body{
+body {
     direction: rtl;
     color: #dfdfdf;
-    background-color: black;
+    background-color: #ededed;
 }
 
-.container__navbar{
-    background-color: #575757;
+.container__navbar {
+    background-color: black;
     height: 95px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 35px;
+    padding: 0 50px;
+    margin: 20px 35px;
+    border-radius: 15px;
+    box-shadow: 15px 12px 20px #00000063;
 }
 
-.navbar__left-div p{
+.navbar__left-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.navbar__left-div p {
     color: #dfdfdf;
 }
-.navbar__right-div{
-    width: 200px;
+
+.navbar__right-div {
+    width: 215px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav__right-div-btn{
+.nav__right-div-btn {
     width: 100px;
     height: 50px;
     font-size: 17px;
-    background-color: #4659;
+    background-color: #04655E;
     border-radius: 10px;
     border: none;
     color: #dfdfdf;
